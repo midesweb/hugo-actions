@@ -32,12 +32,3 @@ jobs:
       with:
         source: "public"
         target: "/var/www/vhosts/hugo.escuelait.com/test"
-
-    - name: Executing remote command
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        USERNAME: ${{ secrets.USERNAME }}
-        PORT: ${{ secrets.PORT }}
-        KEY: ${{ secrets.SSHKEY }}
-        script: ls
