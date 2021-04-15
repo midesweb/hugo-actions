@@ -30,5 +30,5 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
       with:
-        source: "public"
+        source: "public/*"
         target: "/var/www/vhosts/hugo.escuelait.com/test"
