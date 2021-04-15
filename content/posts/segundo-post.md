@@ -8,3 +8,7 @@ El segundo post... una simple prueba...
 
 Este contenido se expresa en Markdown
 
+- Rápido
+- Fácil de escribir
+- Fácil de interpretar por humanos
+- Mantenible
