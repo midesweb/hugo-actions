@@ -1,6 +1,6 @@
 baseURL = "https://hugo.escuelait.com/"
 languageCode = "es"
-title = "Mi sitio web"
+title = "Mi sitio web basado en Hugo"
 theme = "soho"
 
 [params]
